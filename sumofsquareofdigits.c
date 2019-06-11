@@ -4,15 +4,15 @@ int main()
 {
     
     
-    int n,sum=0,rem;
-    scanf("%d",&n);
+    unsigned long long int n,sum=0,rem;
+    scanf("%llu",&n);
     while(n>0)
     {
         rem=n%10;
         sum+=rem*rem;
         n/=10;
     }
-    printf("%d",sum);
+    printf("%llu",sum);
        
     
     
